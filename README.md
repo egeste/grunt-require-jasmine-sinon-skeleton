@@ -1,12 +1,12 @@
 grunt-require-jasmine-sinon skeleton
 ====================================
-This respository is just a skeleton to make to easy to get started with a new project using grunt, requirejs and jasmine. It provides a common configuration, some common jasmine matchers, and a few other conveniences. Much thanks to the talented [Gabriel Hernandez](https://github.com/webspinner) for most of the heavy lifting.
+This respository is just a skeleton to make it easier to get started with a new project using grunt, coffeescript, requirejs and jasmine. It provides a common configuration, some common jasmine matchers, and a few other conveniences. Much thanks to the talented [Gabriel Hernandez](https://github.com/webspinner) for most of the heavy lifting.
 
 Instructions
 ------------
  1. Edit package.json to reflect your project details and dependencies
  1. Edit bower.json to reflect your project details and dependencies
- 1. Delete the example PROJECT_NAME symlink by running `rm -f PROJECT_NAME` from the prject root
+ 1. Delete the example PROJECT_NAME symlink by running `rm -f PROJECT_NAME` from the project root
  1. Create a symlink in the project root that points to src-cov with the bower name of this project
      ln -s ./src-cov PROJECT_NAME
  1. Update coffee/src/main.coffee PROJECT_NAME to your project name
